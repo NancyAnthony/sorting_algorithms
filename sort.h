@@ -35,9 +35,9 @@ void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 
 /* quick_sort.c */
-void quick_sort(int *array, size_t size);
-int lomuto_partition(int *array, ssize_t first, ssize_t last, size_t size);
-void q_sort(int *array, ssize_t first, ssize_t last, int size);
+void ceort(int *array, size_t size);
+int lomuto(int *array, ssize_t begin, ssize_t end, size_t size);
+void quick_sort(int *array, ssize_t begin, ssize_t end, int size);
 
 /* shell sort */
 void shell_sort(int *array, size_t size);
